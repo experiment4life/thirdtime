@@ -26,11 +26,14 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass' 
 gem 'rails_12factor'
 gem 'devise'
-gem 'paperclip'
+gem 'paperclip', '~> 4.2.1'
+gem 'jquery-turbolinks'
+gem 'masonry-rails'
 
 
 group :production do
 gem 'aws-sdk'
+gem 'imagemagick-binaries', '~> 6.8.7.5.1'
 
 end
 
